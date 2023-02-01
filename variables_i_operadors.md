@@ -1,4 +1,5 @@
 # Variables i operadors
+## Variables
 Una variable és un espai de la memòria principal de l'ordinador, identificat per un nom 
 simbòlic on podem guardar informació de forma temporal en els nostres programes.
 
@@ -33,5 +34,9 @@ Sortida.
 <class 'str'>
 <class 'bool'>
 ```
-## Operadors
-
+## Operadors bàsics
+### Operadors aritmètics
+Són els que manipulen dades numèriques (enters i reals) i retornen un resultat.
+|Operador|Descripció|Exemple|
+|--------|----------|-------|
+|+|Suma dos nombres|5+6=11|
