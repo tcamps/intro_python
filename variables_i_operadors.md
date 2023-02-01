@@ -41,3 +41,8 @@ Són els que manipulen dades numèriques (enters i reals) i retornen un resultat
 |:--------:|:----------|:-------|
 |+|Suma dos nombres|5 + 6 = 11|
 |-|Resta dos nombres|10 - 3.4 = 6.6|
+|\*|Multiplica dos nombres|4 * 3 = 12|
+|/|Divideix dos nombres|10 / 4 = 2.5|
+|//|Divideix dos nombres i retorna un enter no arrodonit (només treu els decimals)|10 // 4 = 2|
+|%|Retorna el mòdul (resta d'una divisió) entre dos operadors|10 % 4 = 2|
+|\*\*|Retorna la potència entre dos nombres, on el primer és la base i el segon l'exponent|2 ** 3 = 8|
