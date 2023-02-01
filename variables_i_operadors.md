@@ -2,10 +2,10 @@
 Una variable és un espai de la memòria principal de l'ordinador, identificat per un nom 
 simbòlic on podem guardar informació de forma temporal en els nostres programes.
 
-``
+```
 nombre1 = 5
 nom = "Python"
-``
+```
 ## Tipus de dades
 Les variables tenen un tipus de dades definit (nombre, text, ...). En Python podem trobar els següents 
 tipus de dades:
@@ -26,7 +26,7 @@ print(type(nombre2))
 print(type(nom))
 print(type(major_edat))
 ```
-El resultat obtingut serà el següent:
+Sortida.
 ```
 <class 'int'>
 <class 'float'>
