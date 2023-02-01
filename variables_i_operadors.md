@@ -14,7 +14,7 @@ tipus de dades:
 * Booleà (bool). Només poden tindre dos possibles valors: True o False.
 * Cadena de caràcters *string* (str). Textos alfanumèrics. S'han de limitar entre cometes simples ' ' o dobles " ": "Hola mon", 'acdefg12345-/_', ...
 
-Podem veure el tipus d'una variable amb la funció *type*.
+Podem veure el tipus d'una variable amb la funció *type* (s'ha utilitzat la funció *print* per treure el resultat per pantalla, més endavant es veurà aquesta funció).
 ```
 nombre1 = 5
 nombre2 = 10.67
