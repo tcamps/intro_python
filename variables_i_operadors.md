@@ -6,8 +6,30 @@ simbòlic on podem guardar informació de forma temporal en els nostres programe
 nombre1 = 5
 nom = "Python"
 ```
-
+## Tipus de dades
 Les variables tenen un tipus de dades definit (nombre, text, ...). En Python podem trobar els següents 
 tipus de dades:
 * Enters (int). Nombres enters positius i negatius: -2, 0, 4, 10, ...
-* Decimals (float). 
+* Decimals (float). Nombres reals (decimals) positius i negatius: 3.45, -10,004, ...
+* Booleà (bool). Només poden tindre dos possibles valors: True o False.
+* Cadena de caràcters *string* (str). Textos alfanumèrics. S'han de limitar entre cometes simples ' ' o dobles " ": "Hola mon", 'acdefg12345-/_', ...
+
+Podem veure el tipus d'una variable amb la funció *type*.
+```
+nombre1 = 5
+nombre2 = 10.67
+nom = "Python"
+major_edat = True
+
+print(type(nombre1))
+print(type(nombre2))
+print(type(nom))
+print(type(major_edat))
+```
+El resultat obtingut serà el següent:
+```
+<class 'int'>
+<class 'float'>
+<class 'str'>
+<class 'bool'>
+```
