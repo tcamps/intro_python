@@ -38,5 +38,5 @@ Sortida.
 ### Operadors aritmètics
 Són els que manipulen dades numèriques (enters i reals) i retornen un resultat.
 |Operador|Descripció|Exemple|
-|:--------:|----------|-------|
+|:--------:|:----------|:-------|
 |+|Suma dos nombres|5+6=11|
