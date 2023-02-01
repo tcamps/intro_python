@@ -39,4 +39,5 @@ Sortida.
 Són els que manipulen dades numèriques (enters i reals) i retornen un resultat.
 |Operador|Descripció|Exemple|
 |:--------:|:----------|:-------|
-|+|Suma dos nombres|5+6=11|
+|+|Suma dos nombres|5 + 6 = 11|
+|-|Resta dos nombres|10 - 3.4 = 6.6|
