@@ -1,0 +1,1 @@
+# Entrada i sortida bàsica
