@@ -27,7 +27,7 @@ print(type(nombre2))
 print(type(nom))
 print(type(major_edat))
 ```
-Sortida.
+**Sortida**.
 ```
 <class 'int'>
 <class 'float'>
@@ -65,7 +65,7 @@ Són utilitzats per combinar dos o més condicions.
 |and|Retorna True si totes les condicions es compleixen|10 > 9 and 10 == 10|
 |or|Retorna True si, al mensy, es compleix una de les condicions|10 > 9 or 10 != 10|
 
-Codi d'exemple.
+**Codi d'exemple**.
 ```
 num1 = 10
 num2 = 5
@@ -87,7 +87,7 @@ print(num1 != num2)
 print(num1 > num2 and num1 > num3)
 print(num1 > num2 or num1 > num3)
 ```
-Sortida
+**Sortida**.
 ```
 15
 6
