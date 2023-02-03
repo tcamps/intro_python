@@ -40,3 +40,13 @@ Introdueix la teva edat: 25
 <class 'str'>
 <class 'str'>
 ```
+
+... per explicar ...
+funcions int i float
+errors que poden produir
+
+funció print
+print("", end="")
+print(f"{}"
+
+
