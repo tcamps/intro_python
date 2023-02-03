@@ -10,10 +10,10 @@ nom = "Python"
 ## Tipus bàsics de dades
 Les variables tenen un tipus de dades definit (nombre, text, ...). En Python podem trobar els següents 
 tipus de dades:
-* Enters (int). Nombres enters positius i negatius: -2, 0, 4, 10, ...
-* Decimals (float). Nombres reals (decimals) positius i negatius: 3.45, -10,004, ...
-* Booleà (bool). Només poden tindre dos possibles valors: True o False.
-* Cadena de caràcters *string* (str). Textos alfanumèrics. S'han de limitar entre cometes simples ' ' o dobles " ": "Hola mon", 'acdefg12345-/_', ...
+* Enters (int). Nombres enters positius i negatius: *-2, 0, 4, 10, ...*
+* Decimals (float). Nombres reals (decimals) positius i negatius: *3.45, -10,004, ...*
+* Booleà (bool). Només poden tindre dos possibles valors: *True o False*.
+* Cadena de caràcters *string* (str). Textos alfanumèrics. S'han de limitar entre cometes simples ' ' o dobles " ": *"Hola mon", 'acdefg12345-/_', ...*
 
 Podem veure el tipus d'una variable amb la funció *type* (s'ha utilitzat la funció *print* per treure el resultat per pantalla, més endavant es veurà aquesta funció).
 ```
@@ -46,3 +46,28 @@ Són els que manipulen dades numèriques (enters i reals) i retornen un resultat
 |//|Divideix dos nombres i retorna un enter no arrodonit (només treu els decimals)|10 // 4 = 2|
 |%|Retorna el mòdul (resta d'una divisió) entre dos operadors|10 % 4 = 2|
 |\*\*|Retorna la potència entre dos nombres, on el primer és la base i el segon l'exponent|2 ** 3 = 8|
+
+### Operadors relacionals
+Comparen dos valors i retornen un booleà (*True o False*).
+|Operador|Descripció|Exemple|
+|:--------:|:----------|:-------|
+|>|Retorna True si el primer valor és major que el segon|10 > 9|
+|<|Retorna True si el primer valor és menor que el segon|10 < 11|
+|==|Retorna True si els dos valors són iguals|10 == 10|
+|>=|Retorna True si el primer valor és major o igual que el segon|10 >= 9|
+|<=|Retorna True si el primer valor és menor o igual que el segon|10 <= 11|
+|!=|Retorna True si els dos valors són diferents|10 != 9|
+
+### Operadors lògics
+Són utilitzats per combinar dos o més condicions.
+|Operador|Descripció|Exemple|
+|:--------:|:----------|:-------|
+|and|Retorna True si totes les condicions es compleixen|10 > 9 and 10 == 10|
+|or|Retorna True si, al mensy, es compleix una de les condicions|10 > 9 or 10 != 10|
+
+
+
+
+
+
+
