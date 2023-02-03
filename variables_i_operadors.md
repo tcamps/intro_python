@@ -87,7 +87,7 @@ print(num1 != num2)
 print(num1 > num2 and num1 > num3)
 print(num1 > num2 or num1 > num3)
 ```
-**Sortida**.
+**Sortida** (*cada línia es correspone amb un print*).
 ```
 15
 6
