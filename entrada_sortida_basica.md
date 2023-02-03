@@ -13,6 +13,7 @@ print(un_valor)
 Hola
 Hola
 ```
+
 De manera opcional, podem mostrar un text a l'usuari amb la funció *input*.
 ```
 # Demana el nom a l'usuari i guarda el valor introduït dins la variable 'nom'
@@ -24,6 +25,7 @@ print(nom)
 Introdueix el teu nom: Toni
 Toni
 ```
+
 El tipus de dades que retorna la funció *input* sempre serà una cadena de text (*string*).
 ```
 nom = input("Introdueix el teu nom: ")
