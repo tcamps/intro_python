@@ -3,4 +3,4 @@ En qualsevol llenguatge de programació, un comentari es correspon en una o vari
 Aquestes línies ens poden ser útils per dues coses
 1. Afegir explicacions al nostre codi per facilitar el seu entendiment. 
 Molt útil per mantenir el codi, ja sigui per nosaltres mateixos o altres programadors.
-3.  
+3. Fer que algunes línies del nostre codi deixen d'interpretar-se. Ens pot ser útil al depurar possibles errors. 
