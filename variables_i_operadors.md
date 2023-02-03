@@ -65,7 +65,40 @@ Són utilitzats per combinar dos o més condicions.
 |and|Retorna True si totes les condicions es compleixen|10 > 9 and 10 == 10|
 |or|Retorna True si, al mensy, es compleix una de les condicions|10 > 9 or 10 != 10|
 
+Codi d'exemple.
+```
+num1 = 10
+num2 = 5
+num3 = 20
+num4 = 3
 
+suma = num1 + num2
+divisio_sense_decimals = num3 // num4
+modul_divisio = num3 % num4
+
+print(suma)
+print(divisio_sense_decimals)
+print(modul_divisio)
+
+print(num1 > num2)
+print(num1 <= num2)
+print(num1 == num2)
+print(num1 != num2)
+print(num1 > num2 and num1 > num3)
+print(num1 > num2 or num1 > num3)
+```
+Sortida
+```
+15
+6
+2
+True
+False
+False
+True
+False
+True
+```
 
 
 
