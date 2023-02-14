@@ -8,7 +8,7 @@ un_valor = input()
 # Mostra el valor de la variable per pantalla
 print(un_valor)
 ```
-**Sortida** (*el primer text correspon al que ha entrat l'usuari i el segon és el resultat del print*)
+Sortida (*el primer text correspon al que ha entrat l'usuari i el segon és el resultat del print*).
 ```
 Hola
 Hola
@@ -20,7 +20,7 @@ De manera opcional, podem mostrar un text a l'usuari amb la funció *input*.
 nom = input("Introdueix el teu nom: ")
 print(nom)
 ```
-**Sortida**
+Sortida.
 ```
 Introdueix el teu nom: Toni
 Toni
@@ -33,7 +33,7 @@ edat = input("Introdueix la teva edat: ")
 print(type(nom))
 print(type(edat))
 ```
-**Sortida**
+Sortida.
 ```
 Introdueix el teu nom: Toni
 Introdueix la teva edat: 25
