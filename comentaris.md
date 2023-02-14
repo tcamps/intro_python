@@ -14,7 +14,7 @@ num2 = 10
 suma = num1 + num2
 print(suma)
 ```
-**Sortida**
+Sortida.
 ```
 15
 ```
@@ -29,7 +29,7 @@ suma = num1 + num2
 print(suma)
 """
 
-**Sortida**
+Sortida.
 ```
 15
 ```
