@@ -25,7 +25,7 @@ Sortida.
 Introdueix el teu nom: Toni
 Toni
 ```
-
+### Tipus de dades de l'entrada
 El tipus de dades que retorna la funció *input* sempre serà una cadena de text (*string*).
 ```
 nom = input("Introdueix el teu nom: ")
@@ -84,12 +84,56 @@ Traceback (most recent call last):
 ValueError: invalid literal for int() with base 10: '6y'
 ```
 
-... per explicar ...
-funcions int i float
-errors que poden produir
+## Sortida per pantalla
+En aquest punt ja hem vist que podem mostrar informació en el terminal mitjançant la funcio *print*.
+A n'aquesta funció li podem passar tantes dades com volgume separades per comes.
+```
+nom = input("Escriu el teu nom: ")
+print("Benvingut al curs", nom, ".", "Espero que t'agradi Python")
+```
+Sortida.
+```
+Escriu el teu nom: Toni
+Benvingut al curs Toni . Espero que t'agradi Python
+```
+En l'anterior exemple veure que la funció print rep quatre paràmetres: tres cadenes de text i una variable que conte un valor. La funció *print* mostrarà els paràmetres un a un i separats per un espai.
+Podem canviar aquest separador per defecte passant-li un valor al paràmetre *sep*.
+```
+nom = input("Escriu el teu nom: ")
+print("Benvingut al curs", nom, ".", "Espero que t'agradi Python", sep="--")
+```
+Sortida.
+```
+Escriu el teu nom: Toni
+Benvingut al curs--Toni--.--Espero que t'agradi Python
+```
+Al final de cada *print* s'insereix un salt de línia. 
+```
+nom = input("Escriu el teu nom: ")
+print("Hola")
+print(nom)
+```
+Sortida.
+```
+Escriu el teu nom: Toni
+Hola
+Toni
+```
+També podem canviar aquesta opció mitjançant el paràmetre *end*.
+```
+nom = input("Escriu el teu nom: ")
+print("Hola", end=" ")
+print(nom)
+```
+Sortida.
+```
+Escriu el teu nom: Toni
+Hola Toni
+```
+*En aquest darrer exemple el primer print acaba amb un espai en blanc i el segon amb un salt de línia (opció per defecte)*.
 
-funció print
-print("", end="")
+
+
 print(f"{}"
 
 
