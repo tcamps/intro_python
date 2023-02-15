@@ -130,10 +130,6 @@ Sortida.
 Escriu el teu nom: Toni
 Hola Toni
 ```
-*En aquest darrer exemple el primer print acaba amb un espai en blanc i el segon amb un salt de línia (opció per defecte)*.
-
-
-
-print(f"{}"
+En aquest darrer exemple el primer *print* acaba amb un espai en blanc i el segon amb un salt de línia (opció per defecte).
 
 
