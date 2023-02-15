@@ -40,6 +40,49 @@ Introdueix la teva edat: 25
 <class 'str'>
 <class 'str'>
 ```
+Si necessitem que les dades entrades per l'usuari siguin nombre podem utilitzar
+les funcions *int()* o *float()* per convertir-les.
+En el següent codi *entrada* és una cadena de caràcters i amb les dues funcions el convertim 
+a enter (*entrada_enter*) i decimal (*entrada_decimal*):
+```
+entrada = input("Introdueix un nombre: ")
+print(type(entrada))
+entrada_enter = int(entrada)
+print(type(entrada_enter))
+entrada_decimal = float(entrada)
+print(type(entrada_decimal))
+```
+Sortida
+```
+Introdueix un nombre: 5
+<class 'str'>
+<class 'int'>
+<class 'float'>
+```
+D'aquesta manera ja podem treballar amb nombres i fer operacions.
+```
+nombre1 = int(input("Introdueix el primer nombre: "))
+nombre2 = int(input("Introdueix el segon nombre: "))
+suma = nombre1 + nombre2
+print("La suma és:", suma)
+```
+Sortida
+```
+Introdueix el primer nombre: 5
+Introdueix el segon nombre: 10
+La suma és: 15
+```
+Si l'usuari ens introdueix un text que no és un nombre i intentem convertir-lo amb alguna 
+de les dues funcions es produirà un error.
+Sortida d'exemple del mateix programa de suma anterior (Es produeix un error al aplicar la funció 
+*int* al text *6y*):
+```
+Introdueix el primer nombre: 6y
+Traceback (most recent call last):
+  File "tutorial.py", line 1, in <module>
+    nombre1 = int(input("Introdueix el primer nombre: "))
+ValueError: invalid literal for int() with base 10: '6y'
+```
 
 ... per explicar ...
 funcions int i float
