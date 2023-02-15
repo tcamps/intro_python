@@ -5,7 +5,7 @@ Curs molt bàsic de Python dirigit a estudiants d'ESO. L'objectiu és apendre el
 1. [Variables i operadors](variables_i_operadors.md)
 2. [Comentaris](comentaris.md)
 3. [Entrada i sortida bàsica](entrada_sortida_basica.md)
-4. Estructura de decissió (condicional)
+4. [Estructures Condicionals](condicionals.md)
 5. Estructures iteratives (repetitives)
 6. Llistes
 7. Diccionaris ** (tema avançat)
