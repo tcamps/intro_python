@@ -60,7 +60,9 @@ Sortida.
 És positiu i major que 10
 ```
 ## Sentències amb vàries condicions
-Dins una mateixa sentència *if* es poden combinar vàries condicions amb *and* o *or*. En el cas de *and* s'han de complir totes les condicions i amb *or* una d'elles.
+Dins una mateixa sentència *if* es poden combinar vàries condicions amb *and* o *or*.
+
+En el cas de *and* s'han de complir totes les condicions.
 ```
 num = 9
 if num >= 0 and num <= 10:
@@ -71,4 +73,15 @@ else:
 Sortida.
 ```
 És un nombre entre 0 i 10
+```
+I amb *or* una d'elles.
+```lletra ='A'
+if lletra == 'A' or lletra == 'a':
+    print("És la lletra 'a'")
+else:
+    print("No és la lletra 'a'")
+```
+Sortida.
+```
+És la lletra 'a'
 ```
