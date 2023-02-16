@@ -43,5 +43,32 @@ Sortida.
 Es positiu
 ```
 ## Sentències *if* anidades
-
-
+Es poden anidar sentencies *if* dins altres sentències *if*, *elif* o *else*.
+```num = 11
+if num > 0:
+    if num > 10:
+        print("És positiu i major que 10")
+    else:
+        print("És positiu i menor o igual que 10")
+elif num == 0:
+    print("És zero")
+else:
+    print("És negatiu")
+```
+Sortida.
+```
+És positiu i major que 10
+```
+## Sentències amb vàries condicions
+Dins una mateixa sentència *if* es poden combinar vàries condicions amb *and* o *or*. En el cas de *and* s'han de complir totes les condicions i amb *or* una d'elles.
+```
+num = 9
+if num >= 0 and num <= 10:
+    print("És un nombre entre 0 i 10")
+else:
+    print("No és un nombre entre 0 i 10")
+```
+Sortida.
+```
+És un nombre entre 0 i 10
+```
