@@ -83,9 +83,53 @@ Versió amb inici i increment per defecte:
 8
 9
 ```
-
+Algorisme que demana un nombre entre 1 i 10 a l'usuari i mostra la seva taula de multiplicar.
+```
+nombre = int(input("Introdueix un nombre entre 1 i 10: "))
+print("Taula de multiplicar del",nombre)
+for i in range(11):
+    multiplicacio = nombre * i
+    print(nombre, " x ", i, " = ", multiplicacio)
+```
+Sortida.
+```
+Introdueix un nombre entre 1 i 10: 6
+Taula de multiplicar del 6
+6  x  0  =  0
+6  x  1  =  6
+6  x  2  =  12
+6  x  3  =  18
+6  x  4  =  24
+6  x  5  =  30
+6  x  6  =  36
+6  x  7  =  42
+6  x  8  =  48
+6  x  9  =  54
+6  x  10  =  60
+```
 ## Bucles infinits
+Un error molt comú en programació és crear un bucle que no acaba mai. El programa es queda bloquejat en aquest punt. Però avui en dia s'utilitza molt la tècnica de crear un bucle infinit per definició (la condició sempre es complirà) i acabar el bucle des de dins. Amb Python, això es pot fer amb la sentència **break**.
+```
+suma = 0
+while True:
+    nombre_entrada = int(input("Introdueix un nombre enter: "))
+    if nombre_entrada == 0:
+        # Acabem el bucle
+        break
+    suma += nombre_entrada
+print("El resultat de la suma és", suma)
+```
+Sortida.
+```
+Introdueix un nombre enter: 4
+Introdueix un nombre enter: 5
+Introdueix un nombre enter: 6
+Introdueix un nombre enter: 0
+El resultat de la suma és 15
+```
+També existeix la sentència **continue** amb la qual podem obviar el codi que hi ha a continuació i anar directament a la següent execució del bucle.
 
-### Sentència *continue*
 
-### Sentència *break*
+
+
+
