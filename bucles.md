@@ -127,7 +127,6 @@ Introdueix un nombre enter: 6
 Introdueix un nombre enter: 0
 El resultat de la suma és 15
 ```
-També existeix la sentència **continue** amb la qual podem obviar el codi que hi ha a continuació i anar directament a la següent execució del bucle.
 
 
 
