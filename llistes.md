@@ -54,3 +54,28 @@ Sortida.
 Dilluns
 Dijous
 ```
+### Índex negatius
+Podem accedir als elements d'una llista començant per darrera utilitzant índex negatius. El darrer valor tindrà l'índex -1, el penúltim el -2, ...
+```
+dies_setmana = ["Dilluns", "Dimarts", "Dimecres", "Dijous", "Divendres", "Dissabte", "Diumenge"]
+print(dies_setmana[-1])
+print(dies_setmana[-3])
+```
+Sortida.
+```
+Diumenge
+Divendres
+```
+### Accés a un subconjunt d'elements (*slicing*)
+La tècnica de *slicing* ens permet accedir a un subconjunt dels elements de la llista especificant un interval *[inici:final]*. El darrer element serà el que correspon a l'índex *final - 1*.
+```
+dies_setmana = ["Dilluns", "Dimarts", "Dimecres", "Dijous", "Divendres", "Dissabte", "Diumenge"]
+print(dies_setmana[0:3]) # Subconjunt des de l'índex 0 fins el 3 - 1
+print(dies_setmana[2:5]) # Subconjunt des de l'índex 2 fins el 5 - 1
+```
+Sortida.
+```
+['Dilluns', 'Dimarts', 'Dimecres']
+['Dimecres', 'Dijous', 'Divendres']
+```
+
