@@ -78,4 +78,30 @@ Sortida.
 ['Dilluns', 'Dimarts', 'Dimecres']
 ['Dimecres', 'Dijous', 'Divendres']
 ```
-
+Podem obviar el valor d'inici (per defecte serà un 0).
+```
+dies_setmana = ["Dilluns", "Dimarts", "Dimecres", "Dijous", "Divendres", "Dissabte", "Diumenge"]
+print(dies_setmana[:3]) # Subconjunt des de l'índex 0 fins el 3 - 1
+```
+Sortida.
+```
+['Dilluns', 'Dimarts', 'Dimecres']
+```
+I també podem obviar el valor final (per defecte serà la longitud de la llista, on *longitud -1* correspon al darrer valor)
+```
+dies_setmana = ["Dilluns", "Dimarts", "Dimecres", "Dijous", "Divendres", "Dissabte", "Diumenge"]
+print(dies_setmana[2:]) # Subconjunt des de l'índex 2 fins a 7 - 1
+```
+Sortida.
+```
+['Dimecres', 'Dijous', 'Divendres', 'Dissabte', 'Diumenge']
+```
+Tenim la possibilitat de fer un *slicing* amb índex negatius.
+```
+dies_setmana = ["Dilluns", "Dimarts", "Dimecres", "Dijous", "Divendres", "Dissabte", "Diumenge"]
+print(dies_setmana[-3:]) # Subconjunt des de l'índex -3 fins al final
+```
+Sortida.
+```
+['Divendres', 'Dissabte', 'Diumenge']
+```
