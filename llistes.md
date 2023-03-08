@@ -96,7 +96,7 @@ Sortida.
 ```
 ['Dimecres', 'Dijous', 'Divendres', 'Dissabte', 'Diumenge']
 ```
-Tenim la possibilitat de fer un *slicing* amb índex negatius.
+Tenim la possibilitat de fer un *slicing* amb índexs negatius.
 ```
 dies_setmana = ["Dilluns", "Dimarts", "Dimecres", "Dijous", "Divendres", "Dissabte", "Diumenge"]
 print(dies_setmana[-3:]) # Subconjunt des de l'índex -3 fins al final
