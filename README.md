@@ -7,7 +7,7 @@ Curs molt bàsic de Python dirigit a estudiants d'ESO. L'objectiu és apendre el
 3. [Entrada i sortida bàsica](entrada_sortida_basica.md)
 4. [Estructures Condicionals](condicionals.md)
 5. [Estructures iteratives (repetitives)](bucles.md)
-6. Llistes
+6. [Llistes](llistes.md)
 7. Diccionaris ** (tema avançat)
 8. Funcions ** (tema avançat)
 
