@@ -41,3 +41,16 @@ Sortida.
 La llista_nombres té 6 elements
 L'string dia té 7 caràcters
 ```
+
+## Accés als elements d'una llista (*índex*)
+Per accedir a un element concret d'una llista s'utilitzen els índexs. Un índex és un nombre enter que indica la posició d'un element dins la llista. El primer element de la llista té l'índex 0.
+```
+dies_setmana = ["Dilluns", "Dimarts", "Dimecres", "Dijous", "Divendres", "Dissabte", "Diumenge"]
+print(dies_setmana[0])
+print(dies_setmana[3])
+```
+Sortida.
+```
+Dilluns
+Dijous
+```
