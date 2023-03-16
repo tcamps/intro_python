@@ -105,3 +105,26 @@ Sortida.
 ```
 ['Divendres', 'Dissabte', 'Diumenge']
 ```
+## Recórrer una llista
+Amb l'estructura iterativa *for* podem recórrer una llista i recuperar els seus elements un a un.
+```
+dies_setmana = ["Dilluns", "Dimarts", "Dimecres", "Dijous", "Divendres", "Dissabte", "Diumenge"]
+for dia in dies_setmana:
+    print(dia)
+```
+Sortida.
+```
+Dilluns
+Dimarts
+Dimecres
+Dijous
+Divendres
+Dissabte
+Diumenge
+```
+## Mètodes de les llistes
+Una llista en Python és un objecte, i els objectes tenen assignats funcions que realitzen accions damunt l'objecte. Aquestes funcions d'un objecte són anomenats **mètodes**. Per utilitzar un mètode s'utilitza l'estructura *objecte.metode()*.
+
+A continuació es descriuen alguns dels mètodes més importants.
+
+
