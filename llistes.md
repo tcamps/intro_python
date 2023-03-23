@@ -255,6 +255,8 @@ Sortida.
 [1, 2, 3, 4, 7, 9]
 [9, 7, 4, 3, 2, 1]
 ```
+També es poden ordenar llistes de càdenes de caràcters.
+```
 noms = ["Laura", "Joan", "Aina", "Toni", "Marina", "Josep", "Iker", "Joana"]
 print(noms)
 noms.sort()
