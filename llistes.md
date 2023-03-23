@@ -241,6 +241,7 @@ Sortida.
 ['tardor', 'estiu', 'primavera', 'hivern']
 ```
 **sort()**: Ordena els elements d'una llista. Per defecte els ordenarà de manera ascendent, però amb el paràmetre *reverse* podem fer una ordenació descendent.
+Els element de la llista poden ser nombres ...
 ```
 nombres = [4, 7, 1, 3, 9, 2]
 print(nombres)
@@ -255,7 +256,7 @@ Sortida.
 [1, 2, 3, 4, 7, 9]
 [9, 7, 4, 3, 2, 1]
 ```
-També es poden ordenar llistes de càdenes de caràcters.
+... o càdenes de caràcters.
 ```
 noms = ["Laura", "Joan", "Aina", "Toni", "Marina", "Josep", "Iker", "Joana"]
 print(noms)
