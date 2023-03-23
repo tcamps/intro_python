@@ -258,7 +258,7 @@ Sortida.
 [1, 2, 3, 4, 7, 9]
 [9, 7, 4, 3, 2, 1]
 ```
-... o càdenes de caràcters.
+... o cadenes de caràcters.
 ```
 noms = ["Laura", "Joan", "Aina", "Toni", "Marina", "Josep", "Iker", "Joana"]
 print(noms)
