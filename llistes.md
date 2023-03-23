@@ -127,4 +127,15 @@ Una llista en Python és un objecte, i els objectes tenen assignats funcions que
 
 A continuació es descriuen alguns dels mètodes més importants.
 
+**append()**: Afegeix un nou element al final de la llista.
+```
+mesos = []
+mesos.append("gener")
+mesos.append("febrer")
+print(mesos)
+```
+Sortida
+```
+['gener', 'febrer']
+```
 
