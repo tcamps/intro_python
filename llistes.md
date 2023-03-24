@@ -18,7 +18,7 @@ Sortida.
 ['Dilluns', 'Dimarts', 'Dimecres', 'Dijous', 'Divendres', 'Dissabte', 'Diumenge']
 ['gos', 45, 'barcelona', 7.56, True]
 ```
-o una llista buida
+... o una llista buida
 ```
 llista = []
 print(llista)
