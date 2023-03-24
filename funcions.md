@@ -58,9 +58,9 @@ Sortida.
 ```
 Com et dius? Toni
 Hola Toni
-Benvingut al llenguate Python
+Benvingut al llenguatge Python
 ```
-En aquest darrer exemple, la variable *nom_persona* i el paràmetre *nom* no tenen cap relació. *nom_persona* és una variable global que existeix en el codi principal del programa. Al cridar a la funció *saluda* li pasem el valor de *nom_persona* (no la variable) i aquest queda guardat dins la variable local *nom* que només existeix dins la funció.
+En aquest darrer exemple, la variable *nom_persona* i el paràmetre *nom* no tenen cap relació. *nom_persona* és una variable global que existeix en el codi principal del programa. Al cridar a la funció *saluda* li passem el valor de *nom_persona* (no la variable) i aquest queda guardat dins la variable local *nom* que només existeix dins la funció.
 ### Valor de retorn d'una funció
 Si volem que la nostra funció retorni un valor utilitzarem la paraula reservada *return*.
 ```
@@ -80,5 +80,5 @@ Introdueix el segon nombre: 6
 El resultat de sumar 5.0 i 6.0 és 11.0
 ```
 Amb el valor retornat tenim dues opcions:
-1. Guardar-lo dins una variable per fer-na un ús posterior. En l'exemple anterior, guardem el resultat de la suma que ens retorna la funció *suma* dins la varialbe *res*.
+1. Guardar-lo dins una variable per fer-na un ús posterior. En l'exemple anterior, guardem el resultat de la suma que ens retorna la funció *suma* dins la variable *res*.
 2. Utilitzar-lo com a paràmetre d'una altra funció. En l'exemple anterior, la cadena de caràcters que ens retorna la funció *input* al demanar cada nombre la passem directament a la funció *float* per convertir-lo a nombre real.
