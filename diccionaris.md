@@ -77,7 +77,7 @@ Però podem utilitzar aquestes claus per accedir al diccionari i recuperar els s
 ```
 colors_hexadecimals = {"vermell":"#FF0000", "verd":"#00FF00", "blau":"#0000FF", "taronja":"#FF8000"}
 for color in colors_hexadecimals:
-    print(color,"-->", colors_hexadecimals[color])
+    print(color, "-->", colors_hexadecimals[color])
 ```
 Sortida.
 ```
