@@ -26,5 +26,5 @@ Sortida.
 Escriu el teu nom: Toni
 Hola Toni
 ```
-La biblioteca estàndard de Python ja incorpora molts de mòduls amb funcions que ens ajuden a desenvolupar els nostres programes. També tenim la possibilitat d'instal·lar noves llibreries. L'índex de paquets de Python és un repositori de programari per Python on podem trobar totes aquestes llibreries: (PyPI)[https://pypi.org/]
+La biblioteca estàndard de Python ja incorpora molts de mòduls amb funcions que ens ajuden a desenvolupar els nostres programes. També tenim la possibilitat d'instal·lar noves llibreries. L'índex de paquets de Python és un repositori de programari per Python on podem trobar totes aquestes llibreries: [PyPI](https://pypi.org)
 ## Creació de les nostres pròpies funcions
