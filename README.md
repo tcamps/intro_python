@@ -1,6 +1,6 @@
 # Introducció a Python
 
-Curs molt bàsic de Python dirigit a estudiants d'ESO. L'objectiu és apendre els conceptes de manera molt bàsica per poder resoldre exercicis i utilitzar el llenguatge per apendre algorísmia.
+Curs bàsic de Python per l'assignatura **Programació i Estructures de Dades I** de 1r de Batxillerat.
 
 1. [Variables i operadors](variables_i_operadors.md)
 2. [Comentaris](comentaris.md)
